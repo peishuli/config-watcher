@@ -1,0 +1,10 @@
+apiVersion: monitors.peishu.io/v1alpha1
+kind: ConfigWatch
+metadata:
+  name: configwatch-sample
+spec:
+  namespace: demo
+  configMaps:
+    - my-config
+  secrets:
+    - my-secret

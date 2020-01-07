@@ -1,0 +1,7 @@
+version: "2"
+domain: peishu.io
+repo: github.com/peishuli/config-watcher
+resources:
+- group: monitors
+  version: v1alpha1
+  kind: ConfigWatch
